@@ -1,0 +1,19 @@
+# 1) Ignore everything by default
+*
+
+# 2) Re-include the files that make up the portfolio piece
+!.gitignore
+!README.md
+!LICENSE
+!fred_extract.py
+!Economic_Analysis.pbix
+
+# Generated star-schema data (so the dashboard can be opened as-is)
+!output/
+!output/*.csv
+
+# Final dashboard screenshots
+!01-overview.png
+!02-inflation.png
+!03-labor.png
+!04-rates.png
