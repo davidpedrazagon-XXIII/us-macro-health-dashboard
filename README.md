@@ -100,7 +100,7 @@ pip install fredapi pandas
 # 2. Get a free FRED API key at:
 #    https://fredaccount.stlouisfed.org/apikeys
 
-# 3. Run the extractor (key passed as an argument)
+# 3. Run the extractor 
 python fred_extract.py 
 
 # 4. Open Economic_Analysis.pbix and refresh
